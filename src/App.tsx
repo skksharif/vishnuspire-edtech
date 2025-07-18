@@ -641,11 +641,11 @@ const App = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 justify-center">
             {courses.map((course, index) => (
-              <div key={course.id} className="flex justify-center">
+              <div key={course.id} className="justify-center flex">
                 <div
-                  className="flex-shrink-0 w-72 sm:w-80 lg:w-auto bg-white/40 backdrop-blur-sm p-6 sm:p-8 rounded-2xl hover:shadow-2xl transition-all duration-700 ease-out transform hover:-translate-y-3 border border-green-200/30 group scroll-animate opacity-0 translate-y-12"
+                  className="w-[280px] sm:w-[320px] lg:w-auto bg-white/40 backdrop-blur-sm p-6 sm:p-8 rounded-2xl hover:shadow-2xl transition-all duration-700 ease-out transform hover:-translate-y-3 border border-green-200/30 group scroll-animate opacity-0 translate-y-12"
                   style={{
                     transitionDelay: `${index * 0.15}s`,
                     transitionDuration: "1200ms",
