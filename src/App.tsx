@@ -33,6 +33,7 @@ import {
   Shield,
   Sparkles,
 } from "lucide-react";
+import MemeSlideshow from "./components/MemeSlideshow";
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -616,6 +617,8 @@ const App = () => {
         </div>
       </section>
 
+      <MemeSlideshow/>
+
       {/* Courses Section */}
       <section id="courses" className="py-16 sm:py-20 relative">
         {/* Blurred Background */}
@@ -684,6 +687,7 @@ const App = () => {
           </div>
         </div>
       </section>
+      
 
       {/* Interactive Learning Approach */}
       <section id="approach" className="py-16 sm:py-20 relative">
